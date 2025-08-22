@@ -1,9 +1,9 @@
-import './globals.css';
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: 'Healthcare Symptom Checker',
-  description: 'Educational symptom checker using Hugging Face + FastAPI backend',
+  title: "Healthcare Symptom Checker",
+  description: "Educational symptom checker using Hugging Face + FastAPI backend",
 };
 
 export default function RootLayout({
